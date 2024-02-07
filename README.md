@@ -1,10 +1,12 @@
-# destkop templates 
+# THIS IS THE ARCH LINUX BRANCH, IF YOU ARE ON A DEBIAN BASED SYSTEM, SWITCH TO THE DEBIAN BRANCH 
 
-# how to use - 
+availible desktops for arch -
 
-in this repository, there are a number of branches which has been named for your convenience. Each branch name starts with a the name of a distro (debian or arch etc) and the desktop manager/ window manager which it installs (gnome,kde,i3,) 
+KDE (sddm display manager)
+GNOME (with optional extensions, these can be enabled with the extension managed, which will be installed) (gdm display manager)
+i3 (lightdm)
+cinnamon (themed with the linux mint colours)
 
-# GAMESCOPE SESSION WARNING -
+gamescope (steamos gamepadui) (should be installed after any of the above is working WITH the correct drivers)
 
-as of now, the gamescope (steam deck ui) session is only availible for arch or arch-based distros. 
-
+NViDIA GPU users - nvidia-drm.nomodeset=1 will need to be manually added to the grub config to get wayland (gamescope) working properly.
